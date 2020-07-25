@@ -21,6 +21,8 @@
     "doc": "docs"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.5.2"
+  },
   "description": ""
 }

@@ -1,6 +1,9 @@
 module.exports = {
     // 网站 Title
     title: '智慧云端',
+    head: [
+        ['link', { rel: 'icon', href: '/imgs/logo.png' }]
+    ],
     // 网站描述
     description: '参考文档',
     // 端口号
@@ -40,8 +43,8 @@ module.exports = {
                 ]
             }]
         }
-    }
-
+    },
+    plugins: ['@vuepress/back-to-top']
 }
 
 
