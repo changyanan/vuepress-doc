@@ -20,7 +20,9 @@
   "directories": {
     "doc": "docs"
   },
-  "dependencies": {},
+  "dependencies": {
+    "vuepress-plugin-gotop-plus": "^1.0.4"
+  },
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.5.2"
   },

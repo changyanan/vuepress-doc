@@ -4,12 +4,14 @@ module.exports = {
     head: [
         ['link', { rel: 'icon', href: '/imgs/logo.png' }]
     ],
+
     // 网站描述
     description: '参考文档',
     // 端口号
     port: 8081,
     base: '/',
     themeConfig: {
+        next: false,
         nav: [
             {text: '主页', link: '/', icon: 'reco-home'},
             {text: '接入指南', link: '/views/zfb/'},
@@ -44,7 +46,18 @@ module.exports = {
             }]
         }
     },
-    plugins: ['@vuepress/back-to-top']
+    plugins: [
+        /* 两个插件只能选一个 */
+        ['@vuepress/plugin-back-to-top', false],
+        [
+            'vuepress-plugin-gotop-plus', {
+            // 是否在移动设备上显示(default: true)
+            mobileShow: false,
+            // 回到页首元素显示触发的高度阈值(default: 50)
+            threshold: 50
+        }
+        ],
+    ],
 }
 
 
