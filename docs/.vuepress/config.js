@@ -51,6 +51,6 @@ module.exports = {
 // npm run  docs:dev
 // npm i vuepress-theme-antdocs
 
-// :href="$withBase('/imgs/logo.png')"
+// :href="$withBase('/imgs/logo1.png')"
 // https://gitter.im/xuenan020/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link
 //     [![Gitter](https://badges.gitter.im/xuenan020/community.svg)](https://gitter.im/xuenan020/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
